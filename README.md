@@ -15,6 +15,18 @@ Open source machine learning (ML) work based on the Python programming language 
 
 عادة الإعمار المتزامن متعدد العناصر ثلاثي الأبعاد ، ووضع 6D وتقدير الحجم من خلال ملاحظة RGB-D أحادية العرض. على عكس تقدير الوضع على المستوى غير المباشر ، فإننا نركز على مشكلة أكثر صعوبة حيث لا تتوفر نماذج CAD في وقت الاستدلال. تتبع الأساليب الحالية بشكل أساسي خط أنابيب معقد متعدد المراحل يقوم أولاً بترجمة وكشف كل مثيل كائن في الصورة ثم يتراجع إلى شبكاتهم ثلاثية الأبعاد أو أوضاعهم 6D.
 
+```
+
+data
+├── CAMERA
+│   ├── train
+│   └── val_subset
+├── Real
+│   ├── train
+└── └── test
+```
+
+
 # PointCloud Auto-Encoder
 
 ![Capture1](https://user-images.githubusercontent.com/35774039/179402622-031ec85c-c51a-4e0c-a833-4c04020c3dc5.PNG)
